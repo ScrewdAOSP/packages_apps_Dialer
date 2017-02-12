@@ -15,7 +15,34 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- In-call vibrate options -->
+  <string name="incall_vibration_category_title">通話中のバイブレーション</string>
+  <string name="incall_vibrate_outgoing_title">応答時のバイブレーション</string>
+  <string name="vibrate_call_waiting">割込通話時のバイブレーション</string>
+  <string name="incall_vibrate_hangup_title">通話終了時のバイブレーション</string>
+  <string name="incall_vibrate_45_title">時間ごとのバイブレーション</string>
+  <string name="incall_vibrate_45_summary">発信中に45秒ごとに振動する</string>
   <!-- Proximity speaker -->
+  <string name="speaker_settings_label">近接スピーカーフォン</string>
+  <string name="prox_auto_speaker_title">近接スピーカーフォン</string>
+  <string name="prox_auto_speaker_summary">電話を耳から離すと自動的にスピーカーを有効にする</string>
+  <string name="prox_auto_speaker_delay_title">スピーカーフォンの遅延</string>
+  <string name="prox_auto_speaker_delay_dialog_title">スピーカーフォンの遅延(ミリ秒)</string>
+  <string name="prox_auto_speaker_delay_summary">スピーカーはあと<xliff:g id="number">%d</xliff:g>ミリ秒で起動します</string>
+  <string name="prox_auto_speaker_incall_only_title">通話中のみ有効</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">電話をかける時、呼び出し中は自動スピーカーフォンを無効にします</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">呼び出し中でも自動スピーカーフォンを有効にします(既定)</string>
   <!-- Forward lookup -->
+  <string name="nearby_places">近くの場所</string>
+  <string name="people">人々</string>
   <!-- Number lookup -->
+  <string name="lookup_settings_label">電話番号検索</string>
+  <string name="enable_forward_lookup_title">前方検索</string>
+  <string name="enable_forward_lookup_summary">ダイヤル画面で検索しているときに近くの場所を表示する</string>
+  <string name="enable_people_lookup_title">人物検索</string>
+  <string name="enable_people_lookup_summary">ダイヤル画面で検索しているときに人物のオンラインの検索結果を表示する</string>
+  <string name="enable_reverse_lookup_title">逆引き検索</string>
+  <string name="enable_reverse_lookup_summary">着信中の不明な番号の人物または場所の情報を検索する</string>
+  <string name="forward_lookup_provider_title">前方検索プロバイダ</string>
+  <string name="people_lookup_provider_title">人物検索プロバイダ</string>
+  <string name="reverse_lookup_provider_title">逆引き検索プロバイダ</string>
 </resources>

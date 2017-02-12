@@ -15,7 +15,34 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- In-call vibrate options -->
+  <string name="incall_vibration_category_title">Vibration lors des appels</string>
+  <string name="incall_vibrate_outgoing_title">Vibrer en cas de réponse</string>
+  <string name="vibrate_call_waiting">Vibrer en cas d\'appel en attente</string>
+  <string name="incall_vibrate_hangup_title">Vibration à la fin de l\'appel</string>
+  <string name="incall_vibrate_45_title">Vibration à chaque minute</string>
+  <string name="incall_vibrate_45_summary">Vibrations toutes les 45 secondes lors des appels sortants</string>
   <!-- Proximity speaker -->
+  <string name="speaker_settings_label">Paramètres de proximité pour le haut-parleur</string>
+  <string name="prox_auto_speaker_title">Activation automatique du haut-parleur</string>
+  <string name="prox_auto_speaker_summary">Activer le haut-parleur automatiquement lorsque le téléphone est éloigné de l\'oreille</string>
+  <string name="prox_auto_speaker_delay_title">Délai d\'activation du haut-parleur</string>
+  <string name="prox_auto_speaker_delay_dialog_title">Délai avant l\'activation du haut-parleur (ms)</string>
+  <string name="prox_auto_speaker_delay_summary">Le haut-parleur sera activé dans <xliff:g id="number">%d</xliff:g> ms</string>
+  <string name="prox_auto_speaker_incall_only_title">Seulement pendant les appels</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">Lors des appels sortants, le haut-parleur ne s\'active qu\'après la réponse du correspondant</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">L\'écouteur sera actif dès le début des appels (Par défaut)</string>
   <!-- Forward lookup -->
+  <string name="nearby_places">Lieux à proximité</string>
+  <string name="people">Personnes</string>
   <!-- Number lookup -->
+  <string name="lookup_settings_label">Identification de l\'appelant</string>
+  <string name="enable_forward_lookup_title">Recherche directe</string>
+  <string name="enable_forward_lookup_summary">Afficher les adresses à proximité lors d\'une recherche dans l\'application téléphone</string>
+  <string name="enable_people_lookup_title">Recherche de contacts</string>
+  <string name="enable_people_lookup_summary">Afficher les résultats en ligne pour les personnes lors d\'une recherche dans l\'application téléphone</string>
+  <string name="enable_reverse_lookup_title">Recherche inversée</string>
+  <string name="enable_reverse_lookup_summary">Rechercher des informations sur la personne ou le lieu pour les appels entrants dont le numéro est inconnu</string>
+  <string name="forward_lookup_provider_title">Fournisseur pour la recherche instantanée</string>
+  <string name="people_lookup_provider_title">Fournisseur pour la recherche de contacts</string>
+  <string name="reverse_lookup_provider_title">Fournisseur d\'annuaire inversé</string>
 </resources>
