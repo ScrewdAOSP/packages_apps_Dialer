@@ -17,5 +17,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity speaker -->
+  <string name="speaker_settings_label">Közelség kihangosító</string>
+  <string name="prox_auto_speaker_title">Automatikus kihangosítás</string>
+  <string name="prox_auto_speaker_summary">Engedélyezi a kihangosítót, amikor hívás közben a telefont távol tartjuk a fültől</string>
+  <string name="prox_auto_speaker_delay_title">Kihangosítás késleltetése</string>
+  <string name="prox_auto_speaker_delay_dialog_title">Kihangosító késleltetés (ezredmásodpercben)</string>
+  <string name="prox_auto_speaker_delay_summary">A kihangosítás bekapcsolásra kerül <xliff:g id="number">%d</xliff:g> ms múlva</string>
+  <string name="prox_auto_speaker_incall_only_title">Csak hívás közben</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">Kimenő hívásoknál a hallgató csak akkor lesz aktív, a fogadó fél felveszi</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">A hallgató aktív lesz minden hívási állapotban (alapértelmezett)</string>
   <!-- In-call vibrate options -->
+  <string name="incall_vibration_category_title">Hívás közbeni rezgés</string>
+  <string name="incall_vibrate_outgoing_title">Rezgés válaszkor</string>
+  <string name="incall_vibrate_call_waiting_title">Hívásvárakoztatáskor rezeg</string>
+  <string name="incall_vibrate_hangup_title">Bontáskor rezeg</string>
+  <string name="incall_vibrate_50_title">Rezgés percenként</string>
+  <string name="incall_vibrate_50_summary">Minden 50. másodpercben rezeg a kimenő hívások során</string>
 </resources>
