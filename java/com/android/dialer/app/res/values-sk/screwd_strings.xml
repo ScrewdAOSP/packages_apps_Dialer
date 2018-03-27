@@ -17,5 +17,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity speaker -->
+  <string name="speaker_settings_label">Priblíženie reproduktora</string>
+  <string name="prox_auto_speaker_title">Automatické priblíženie reproduktora</string>
+  <string name="prox_auto_speaker_summary">Automaticky povoliť hlasný reproduktor pri vzdialení od ucha</string>
+  <string name="prox_auto_speaker_delay_title">Oneskorenie hlasitého reproduktora</string>
+  <string name="prox_auto_speaker_delay_dialog_title">Oneskorenie hlasitého reproduktora v ms</string>
+  <string name="prox_auto_speaker_delay_summary">Hlasitý reproduktor bude aktivovaný za <xliff:g id="number">%d</xliff:g> ms</string>
+  <string name="prox_auto_speaker_incall_only_title">Len počas hovoru</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">Pri odchádzajúcich hovoroch sa reproduktor aktivuje po prijatí hovoru protistranou</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">Reproduktor bude aktívny vždy, aj pri zvonení (predvolené)</string>
   <!-- In-call vibrate options -->
+  <string name="incall_vibration_category_title">Vibrácie počas hovoru</string>
+  <string name="incall_vibrate_outgoing_title">Vibrovať pri zdvihnutí</string>
+  <string name="incall_vibrate_call_waiting_title">Vibrovať pri čakajúcom hovore</string>
+  <string name="incall_vibrate_hangup_title">Vibrovať pri ukončení hovoru</string>
+  <string name="incall_vibrate_50_title">Vibrovať každú minútu</string>
+  <string name="incall_vibrate_50_summary">Vibrovanie po uplynutí každej 50-tej sekundy každej minúty počas odchádzajúceho hovoru</string>
 </resources>
