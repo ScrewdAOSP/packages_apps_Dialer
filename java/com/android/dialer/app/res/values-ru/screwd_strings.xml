@@ -17,5 +17,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity speaker -->
+  <string name="speaker_settings_label">Настройки датчика приближения</string>
+  <string name="prox_auto_speaker_title">Громкая связь автоматически</string>
+  <string name="prox_auto_speaker_summary">Включить громкую связь автоматически, когда телефон убран от уха</string>
+  <string name="prox_auto_speaker_delay_title">Задержка громкоговорителя</string>
+  <string name="prox_auto_speaker_delay_dialog_title">Задержка громкоговорителя (мс)</string>
+  <string name="prox_auto_speaker_delay_summary">Громкоговоритель будеи активирован в <xliff:g id="number">%d</xliff:g> мс</string>
+  <string name="prox_auto_speaker_incall_only_title">Только во время звонка</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">Громкая связь будет включена, когда абонент поднимет трубку</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">Громкая связь будет включена все время (По умолчанию)</string>
   <!-- In-call vibrate options -->
+  <string name="incall_vibration_category_title">Вибрировать при ответе</string>
+  <string name="incall_vibrate_outgoing_title">Вибрация ответа</string>
+  <string name="incall_vibrate_call_waiting_title">Вибрировать при ожидании</string>
+  <string name="incall_vibrate_hangup_title">Вибрировать при разъединении</string>
+  <string name="incall_vibrate_50_title">Вибрировать каждую минуту</string>
+  <string name="incall_vibrate_50_summary">Вибрировать на каждой 50 секунде каждой минуты во время исходящих вызовов</string>
 </resources>
